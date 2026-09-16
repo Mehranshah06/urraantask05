@@ -1,26 +1,30 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.container{
+
+.container {
     width: 99%;
-    height: 100vh;
+    height: 100%;
     position: relative;
     border: 1px solid black;
     margin: 2px;
 }
-.head{
+
+.head {
     position: absolute;
     width: 50%;
     height: 135px;
     border: 1px solid black;
 }
-.head img{
+
+.head img {
     width: 100%;
     height: 100%;
 }
-.headtext{
+
+.headtext {
     position: absolute;
     width: 50%;
     height: 135px;
@@ -28,28 +32,33 @@
     margin-left: 50%;
     padding-left: 420px;
 }
-.headtext h2{
+
+.headtext h2 {
     font-size: 25px;
     margin-top: 15px;
     font-family: arial;
     color: rgb(116, 21, 21);
 }
-.headtext hr{
-    width: 300px ;
+
+.headtext hr {
+    width: 300px;
     height: 4px;
     background-color: black;
 }
-.headtext h6{
+
+.headtext h6 {
     font-size: 3.1rem;
     font-weight: 600;
     font-family: arial;
 
 }
-.headtext p{
+
+.headtext p {
     font-family: arial;
     font-size: 19px;
 }
-.nav{
+
+.nav {
     width: 100%;
     height: 50px;
     position: absolute;
@@ -62,78 +71,732 @@
     padding-right: 27px;
     background-color: rgb(137, 59, 59);
     border: 1px solid black;
+    box-shadow: 0 0 10px black;
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
     color: white;
     font-size: 25px;
 }
-a:hover{
+
+a:hover {
     background-color: lightblue;
 }
-.m1{
+
+.m1 {
     margin-left: 30px;
     width: 49%;
-    height: 450px;
+    height: 500px;
     margin-right: 30px;
     border: 1px solid black;
     position: absolute;
     top: 186px;
     margin-top: 30px;
+    box-shadow: 0 0 10px black;
 
 }
-.m1 img{
+
+.m1 img {
     width: 100%;
     height: 100%;
 }
-.m2{
+
+.m2 {
     background-image: url(./form_bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 45%;
-    height: 450px;
+    height: 500px;
     top: 187px;
     left: 53%;
     border: 1px solid black;
     position: absolute;
     margin-top: 30px;
+    box-shadow: 0 0 10px black;
 }
-.m2 h2{
+
+.m2 h2 {
     width: 260px;
     height: 50px;
     font-size: 2.5rem;
     background-color: red;
     color: white;
 }
-.m2 h4{
+
+.m2 h4 {
     position: absolute;
     font-size: 1.8rem;
     left: 290px;
-    top: 1px;
+    top: 0px;
 }
-.f1{
+
+.f1 {
     font-size: 3rem;
     color: blue;
     font-weight: 600;
     font-family: Arial;
 }
-.m2 p{
+
+.m2 p {
     font-size: 25px;
     top: 80px;
     position: absolute;
     padding: 17px;
 }
-.m2 label{
-    top: 170px;
+
+.about-rows {
+    top: 165px;
     position: absolute;
     left: 20px;
     font-size: 20px;
+    width: 50%;
+    height: 140px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    flex-direction: column;
+    /* padding: 18px; */
 }
-.m2 input{
-    top: 170px;
+
+.row input {
+    width: 75%;
+    height: 30px;
+}
+
+.row label {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.confidential {
+    width: 40%;
+    height: 140px;
+    border: 1px solid black;
     position: absolute;
-    left: 80px;
+    left: 56%;
+    top: 165px;
+}
+
+.confidential img {
+    position: absolute;
+    margin-top: 32px;
+    width: 100%;
+    height: 50%;
+    transform: rotate(13deg);
+    opacity: 0.9;
+}
+
+.textarea1 {
+    width: 93.3%;
+    height: 83px;
+    border: 1px solid black;
+    position: absolute;
+    left: 20px;
+    top: 313px;
+}
+
+.textarea1 textarea {
+    width: 100%;
+    height: 100%;
+}
+
+.textarea1 ::placeholder {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.btn {
+    width: 95%;
+    height: 82px;
+    border: 1px solid black;
+    position: absolute;
+    top: 417px;
+    left: 10px;
+}
+
+.btn h6 {
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 22px;
+}
+
+.btn button {
+    width: 57%;
+    height: 55px;
+    top: 7px;
+    position: absolute;
+    left: 260px;
+    background-color: #a92e22;
+    font-size: 28px;
+    color: white;
+    font-weight: 546;
+    box-shadow: 0 0 10px black;
+
+}
+
+.btn button img {
+    height: 18px;
+    width: 15px;
+
+}
+
+.section1 {
+    width: 370px;
+    height: 350px;
+    border: 1px solid black;
+    position: absolute;
+    top: 820px;
+    left: 55px;
+}
+
+.section1 h2 {
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.s01 {
+    color: #a92e22;
+}
+
+.section1 h4 {
+    font-size: 21.5px;
+    font-weight: 700;
+    color: #a92e22;
+    margin-bottom: 20px;
+    font-family: arial;
+}
+
+.sp1 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-right: 120px;
+
+}
+
+.sp2 {
+    margin-right: 100px;
+    font-size: 23px;
+    font-weight: 500;
+
+}
+
+.section1 img {
+    top: 71px;
+    right: 1px;
+    position: absolute;
+    width: 120px;
+    height: 160px;
+}
+
+.sectionp1 {
+    width: 100%;
+    height: 30px;
+    top: 83%;
+    left: 55%;
+    position: absolute;
+}
+
+.sectionp1 img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    right: 1px;
+}
+
+.sectionp1 button {
+    width: 135px;
+    height: 35px;
+    color: white;
+    position: absolute;
+    background-color: #a92e22;
+    font-size: 16px;
+    font-weight: 460;
+    box-shadow: 0 0 10px black;
+}
+
+.s1hr {
+    width: 230px;
+    position: absolute;
+    right: 202px;
+    height: 3.4px;
+    background-color: black;
+}
+
+.section2 {
+    width: 550px;
+    height: 350px;
+    border: 1px solid black;
+    position: absolute;
+    top: 820px;
+    left: 480px;
+}
+
+.section21 {
+    width: 510px;
+    height: 50%;
+    position: absolute;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.s21 {
+    color: #a92e22;
+}
+
+.section21 h2 {
+    font-size: 30px;
+    margin-bottom: 7px;
+
+}
+
+.section21 p {
+    font-size: 21.5px;
+    font-weight: 500;
+    margin-right: 300px;
+    margin-bottom: 20px;
+
+}
+
+.section21 img {
+    width: 230px;
+    height: 130px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+}
+
+.sectionp2 {
+    width: 195px;
+    height: 40px;
+    position: absolute;
+
+}
+
+.sectionp2 button {
+    position: absolute;
+    width: 135px;
+    height: 35px;
+    background-color: #a92e22;
+    font-size: 16px;
+    font-weight: 460;
+    box-shadow: 0 0 10px black;
+    color: white;
+    left: 67px;
+
+}
+
+.sectionp2 img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 7px;
+    right: 1px;
+
+}
+
+.s2hr {
+    width: 230px;
+    position: absolute;
+    height: 3px;
+    background-color: black;
+
+}
+
+.section22 {
+    width: 255px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50%;
+    top: 50%;
+    border: 1px solid black;
+    position: absolute;
+
+}
+
+.section22 h2 {
+    font-size: 30px;
+    margin-bottom: 7px;
+
+}
+
+.section22 p {
+    margin-bottom: 5px;
+    font-size: 21.5px;
+    font-weight: 500;
+}
+
+.section23 {
+    position: absolute;
+    width: 255px;
+    height: 50%;
+    top: 50%;
+    right: 18.5px;
+    border: 1px solid black;
+}
+
+.section23 img {
+    width: 90%;
+    height: 90%;
+}
+
+.section22 button {
+    top: 115px;
+    position: absolute;
+    width: 135px;
+    height: 35px;
+    background-color: #a92e22;
+    font-size: 16px;
+    font-weight: 460;
+    box-shadow: 0 0 10px black;
+    color: white;
+    left: 67px;
+}
+
+.section22 button img {
+    width: 15px;
+    height: 15px;
+    top: 7px;
+    position: absolute;
+    right: 0px;
+}
+
+.s21hr {
+    top: 115px;
+    width: 230px;
+    position: absolute;
+    height: 3px;
+    background-color: black;
+
+}
+
+.section3 {
+    width: 370px;
+    height: 350px;
+    border: 1px solid black;
+    position: absolute;
+    top: 820px;
+    right: 55px;
+}
+
+.section31 {
+    position: absolute;
+    width: 48%;
+    height: 45%;
+    border: 1px solid black;
+}
+
+.section32 {
+    position: absolute;
+    width: 48%;
+    height: 45%;
+    border: 1px solid black;
+    right: 0px;
+}
+
+.section31 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section32 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section33 {
+    position: absolute;
+    width: 100%;
+    height: 128px;
+    border: 1px solid black;
+    top: 45%;
+}
+
+.section33 h2 {
+    font-size: 30px;
+}
+
+.se33 {
+    color: #a92e22;
+}
+
+.btn3 {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    top: 83%;
+    /* border: 1px solid black; */
+}
+
+.s3hr {
+    right: -19px;
+    width: 230px;
+    position: absolute;
+    height: 3.5px;
+    background-color: black;
+
+}
+
+.btn3 button {
+    width: 135px;
+    height: 35px;
+    background-color: #a92e22;
+    color: white;
+    position: absolute;
+    right: 0px;
+    font-size: 16px;
+    font-weight: 460;
+}
+
+.btn3 img {
+    width: 15px;
+    height: 15px;
+    top: 7px;
+    position: absolute;
+    right: 0px;
+}
+
+.section33 p {
+    font-size: 21.5px;
+    font-weight: 500;
+}
+
+.main1 {
+    position: absolute;
+    width: 300px;
+    top: 1200px;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+.main11 {
+    font-size: 20px;
+    position: absolute;
+}
+
+.main12 {
+    position: absolute;
+    width: 289px;
+    height: 80px;
+    margin-left: 10px;
+    border: 1px solid black;
+    top: 60px;
+    background-color: gray;
+
+}
+
+.main12 img {
+    position: absolute;
+    width: 13px;
+    height: 100%;
+}
+
+.main12 h2 {
+    top: 6px;
+    left: 20px;
+    position: absolute;
+    font-size: 26px;
+    font-weight: 750;
+    color: white;
+    font-family: arial;
+}
+
+.main12 button {
+    position: absolute;
     width: 200px;
-    height: 25px;
+    height: 35px;
+    background-color: gray;
+    top: 43px;
+    font-size: 20px;
+    font-weight: 460;
+    right: 0px;
+    color: white;
+    border: none;
+}
+
+.main12 button img {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    top: 8.5px;
+    right: 14px;
+}
+
+.main13 {
+    position: absolute;
+    width: 289px;
+    height: 80px;
+    margin-left: 10px;
+    border: 1px solid black;
+    top: 167px;
+    background-color: gray;
+
+}
+
+.main13 img {
+    position: absolute;
+    width: 13px;
+    height: 100%;
+}
+
+.main13 h2 {
+    top: 6px;
+    left: 20px;
+    position: absolute;
+    font-size: 26px;
+    font-weight: 750;
+    color: white;
+    font-family: arial;
+}
+
+.main13 button {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    background-color: gray;
+    top: 43px;
+    font-size: 20px;
+    font-weight: 460;
+    right: 0px;
+    color: white;
+    border: none;
+}
+
+.main13 button img {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    top: 8.5px;
+    right: 14px;
+}
+
+.main14 {
+    position: absolute;
+    width: 289px;
+    height: 80px;
+    margin-left: 10px;
+    border: 1px solid black;
+    top: 275px;
+    background-color: gray;
+
+}
+
+.main14 img {
+    position: absolute;
+    width: 13px;
+    height: 100%;
+}
+
+.main14 h2 {
+    top: 6px;
+    left: 20px;
+    position: absolute;
+    font-size: 26px;
+    font-weight: 750;
+    color: white;
+    font-family: arial;
+}
+
+.main14 button {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    background-color: gray;
+    top: 43px;
+    font-size: 20px;
+    font-weight: 460;
+    right: 0px;
+    color: white;
+    border: none;
+}
+
+.main14 button img {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    top: 8.5px;
+    right: 14px;
+}
+
+.main15 {
+    position: absolute;
+    width: 289px;
+    height: 80px;
+    margin-left: 10px;
+    border: 1px solid black;
+    top: 385px;
+    background-color: gray;
+
+}
+
+.main15 img {
+    position: absolute;
+    width: 13px;
+    height: 100%;
+}
+
+.main15 h2 {
+    top: 6px;
+    left: 20px;
+    position: absolute;
+    font-size: 26px;
+    font-weight: 750;
+    color: white;
+    font-family: arial;
+}
+
+.main15 button {
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    background-color: gray;
+    top: 43px;
+    font-size: 20px;
+    font-weight: 460;
+    right: 0px;
+    color: white;
+    border: none;
+}
+
+.main15 button img {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    top: 8.5px;
+    right: 14px;
+}
+
+.main2 {
+    position: absolute;
+    width: 820px;
+    top: 1200px;
+    border: 1px solid black;
+    height: 600px;
+    margin-left: 380px;
+}
+
+.main2 h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+
+}
+.main2 p{
+    font-size: 1.2rem;
+    line-height: 23px;
+}
+.main3{
+    position: absolute;
+    width: 260px;
+    top: 1200px;
+    border: 1px solid black;
+    height: 600px;
+    margin-left: 1225px;
 }
