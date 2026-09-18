@@ -1,802 +1,267 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    width: 99%;
-    height: 100%;
-    position: relative;
-    border: 1px solid black;
-    margin: 2px;
-}
-
-.head {
-    position: absolute;
-    width: 50%;
-    height: 135px;
-    border: 1px solid black;
-}
-
-.head img {
-    width: 100%;
-    height: 100%;
-}
-
-.headtext {
-    position: absolute;
-    width: 50%;
-    height: 135px;
-    border: 1px solid black;
-    margin-left: 50%;
-    padding-left: 420px;
-}
-
-.headtext h2 {
-    font-size: 25px;
-    margin-top: 15px;
-    font-family: arial;
-    color: rgb(116, 21, 21);
-}
-
-.headtext hr {
-    width: 300px;
-    height: 4px;
-    background-color: black;
-}
-
-.headtext h6 {
-    font-size: 3.1rem;
-    font-weight: 600;
-    font-family: arial;
-
-}
-
-.headtext p {
-    font-family: arial;
-    font-size: 19px;
-}
-
-.nav {
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    top: 135px;
-    display: flex;
-    flex-direction: row;
-    gap: 27px;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 27px;
-    background-color: rgb(137, 59, 59);
-    border: 1px solid black;
-    box-shadow: 0 0 10px black;
-}
-
-.nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-}
-
-a:hover {
-    background-color: lightblue;
-}
-
-.m1 {
-    margin-left: 30px;
-    width: 49%;
-    height: 500px;
-    margin-right: 30px;
-    border: 1px solid black;
-    position: absolute;
-    top: 186px;
-    margin-top: 30px;
-    box-shadow: 0 0 10px black;
-
-}
-
-.m1 img {
-    width: 100%;
-    height: 100%;
-}
-
-.m2 {
-    background-image: url(./form_bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 45%;
-    height: 500px;
-    top: 187px;
-    left: 53%;
-    border: 1px solid black;
-    position: absolute;
-    margin-top: 30px;
-    box-shadow: 0 0 10px black;
-}
-
-.m2 h2 {
-    width: 260px;
-    height: 50px;
-    font-size: 2.5rem;
-    background-color: red;
-    color: white;
-}
-
-.m2 h4 {
-    position: absolute;
-    font-size: 1.8rem;
-    left: 290px;
-    top: 0px;
-}
-
-.f1 {
-    font-size: 3rem;
-    color: blue;
-    font-weight: 600;
-    font-family: Arial;
-}
-
-.m2 p {
-    font-size: 25px;
-    top: 80px;
-    position: absolute;
-    padding: 17px;
-}
-
-.about-rows {
-    top: 165px;
-    position: absolute;
-    left: 20px;
-    font-size: 20px;
-    width: 50%;
-    height: 140px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: flex-start;
-    gap: 15px;
-    flex-direction: column;
-    /* padding: 18px; */
-}
-
-.row input {
-    width: 75%;
-    height: 30px;
-}
-
-.row label {
-    font-size: 23px;
-    font-weight: 600;
-}
-
-.confidential {
-    width: 40%;
-    height: 140px;
-    border: 1px solid black;
-    position: absolute;
-    left: 56%;
-    top: 165px;
-}
-
-.confidential img {
-    position: absolute;
-    margin-top: 32px;
-    width: 100%;
-    height: 50%;
-    transform: rotate(13deg);
-    opacity: 0.9;
-}
-
-.textarea1 {
-    width: 93.3%;
-    height: 83px;
-    border: 1px solid black;
-    position: absolute;
-    left: 20px;
-    top: 313px;
-}
-
-.textarea1 textarea {
-    width: 100%;
-    height: 100%;
-}
-
-.textarea1 ::placeholder {
-    font-size: 20px;
-    font-weight: 600;
-    color: black;
-}
-
-.btn {
-    width: 95%;
-    height: 82px;
-    border: 1px solid black;
-    position: absolute;
-    top: 417px;
-    left: 10px;
-}
-
-.btn h6 {
-    font-size: 25px;
-    font-weight: 200;
-    padding-top: 22px;
-}
-
-.btn button {
-    width: 57%;
-    height: 55px;
-    top: 7px;
-    position: absolute;
-    left: 260px;
-    background-color: #a92e22;
-    font-size: 28px;
-    color: white;
-    font-weight: 546;
-    box-shadow: 0 0 10px black;
-
-}
-
-.btn button img {
-    height: 18px;
-    width: 15px;
-
-}
-
-.section1 {
-    width: 370px;
-    height: 350px;
-    border: 1px solid black;
-    position: absolute;
-    top: 820px;
-    left: 55px;
-}
-
-.section1 h2 {
-    font-size: 30px;
-    margin-bottom: 7px;
-}
-
-.s01 {
-    color: #a92e22;
-}
-
-.section1 h4 {
-    font-size: 21.5px;
-    font-weight: 700;
-    color: #a92e22;
-    margin-bottom: 20px;
-    font-family: arial;
-}
-
-.sp1 {
-    font-size: 23px;
-    font-weight: 500;
-    margin-bottom: 15px;
-    margin-right: 120px;
-
-}
-
-.sp2 {
-    margin-right: 100px;
-    font-size: 23px;
-    font-weight: 500;
-
-}
-
-.section1 img {
-    top: 71px;
-    right: 1px;
-    position: absolute;
-    width: 120px;
-    height: 160px;
-}
-
-.sectionp1 {
-    width: 100%;
-    height: 30px;
-    top: 83%;
-    left: 55%;
-    position: absolute;
-}
-
-.sectionp1 img {
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 7px;
-    right: 1px;
-}
-
-.sectionp1 button {
-    width: 135px;
-    height: 35px;
-    color: white;
-    position: absolute;
-    background-color: #a92e22;
-    font-size: 16px;
-    font-weight: 460;
-    box-shadow: 0 0 10px black;
-}
-
-.s1hr {
-    width: 230px;
-    position: absolute;
-    right: 202px;
-    height: 3.4px;
-    background-color: black;
-}
-
-.section2 {
-    width: 550px;
-    height: 350px;
-    border: 1px solid black;
-    position: absolute;
-    top: 820px;
-    left: 480px;
-}
-
-.section21 {
-    width: 510px;
-    height: 50%;
-    position: absolute;
-    border: 1px solid black;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.s21 {
-    color: #a92e22;
-}
-
-.section21 h2 {
-    font-size: 30px;
-    margin-bottom: 7px;
-
-}
-
-.section21 p {
-    font-size: 21.5px;
-    font-weight: 500;
-    margin-right: 300px;
-    margin-bottom: 20px;
-
-}
-
-.section21 img {
-    width: 230px;
-    height: 130px;
-    position: absolute;
-    right: 20px;
-    top: 10px;
-
-}
-
-.sectionp2 {
-    width: 195px;
-    height: 40px;
-    position: absolute;
-
-}
-
-.sectionp2 button {
-    position: absolute;
-    width: 135px;
-    height: 35px;
-    background-color: #a92e22;
-    font-size: 16px;
-    font-weight: 460;
-    box-shadow: 0 0 10px black;
-    color: white;
-    left: 67px;
-
-}
-
-.sectionp2 img {
-    width: 15px;
-    height: 15px;
-    position: absolute;
-    top: 7px;
-    right: 1px;
-
-}
-
-.s2hr {
-    width: 230px;
-    position: absolute;
-    height: 3px;
-    background-color: black;
-
-}
-
-.section22 {
-    width: 255px;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 50%;
-    top: 50%;
-    border: 1px solid black;
-    position: absolute;
-
-}
-
-.section22 h2 {
-    font-size: 30px;
-    margin-bottom: 7px;
-
-}
-
-.section22 p {
-    margin-bottom: 5px;
-    font-size: 21.5px;
-    font-weight: 500;
-}
-
-.section23 {
-    position: absolute;
-    width: 255px;
-    height: 50%;
-    top: 50%;
-    right: 18.5px;
-    border: 1px solid black;
-}
-
-.section23 img {
-    width: 90%;
-    height: 90%;
-}
-
-.section22 button {
-    top: 115px;
-    position: absolute;
-    width: 135px;
-    height: 35px;
-    background-color: #a92e22;
-    font-size: 16px;
-    font-weight: 460;
-    box-shadow: 0 0 10px black;
-    color: white;
-    left: 67px;
-}
-
-.section22 button img {
-    width: 15px;
-    height: 15px;
-    top: 7px;
-    position: absolute;
-    right: 0px;
-}
-
-.s21hr {
-    top: 115px;
-    width: 230px;
-    position: absolute;
-    height: 3px;
-    background-color: black;
-
-}
-
-.section3 {
-    width: 370px;
-    height: 350px;
-    border: 1px solid black;
-    position: absolute;
-    top: 820px;
-    right: 55px;
-}
-
-.section31 {
-    position: absolute;
-    width: 48%;
-    height: 45%;
-    border: 1px solid black;
-}
-
-.section32 {
-    position: absolute;
-    width: 48%;
-    height: 45%;
-    border: 1px solid black;
-    right: 0px;
-}
-
-.section31 img {
-    width: 100%;
-    height: 100%;
-}
-
-.section32 img {
-    width: 100%;
-    height: 100%;
-}
-
-.section33 {
-    position: absolute;
-    width: 100%;
-    height: 128px;
-    border: 1px solid black;
-    top: 45%;
-}
-
-.section33 h2 {
-    font-size: 30px;
-}
-
-.se33 {
-    color: #a92e22;
-}
-
-.btn3 {
-    position: absolute;
-    width: 100%;
-    height: 60px;
-    top: 83%;
-    /* border: 1px solid black; */
-}
-
-.s3hr {
-    right: -19px;
-    width: 230px;
-    position: absolute;
-    height: 3.5px;
-    background-color: black;
-
-}
-
-.btn3 button {
-    width: 135px;
-    height: 35px;
-    background-color: #a92e22;
-    color: white;
-    position: absolute;
-    right: 0px;
-    font-size: 16px;
-    font-weight: 460;
-}
-
-.btn3 img {
-    width: 15px;
-    height: 15px;
-    top: 7px;
-    position: absolute;
-    right: 0px;
-}
-
-.section33 p {
-    font-size: 21.5px;
-    font-weight: 500;
-}
-
-.main1 {
-    position: absolute;
-    width: 300px;
-    top: 1200px;
-    height: 600px;
-    border: 1px solid black;
-    margin-left: 30px;
-}
-
-.main11 {
-    font-size: 20px;
-    position: absolute;
-}
-
-.main12 {
-    position: absolute;
-    width: 289px;
-    height: 80px;
-    margin-left: 10px;
-    border: 1px solid black;
-    top: 60px;
-    background-color: gray;
-
-}
-
-.main12 img {
-    position: absolute;
-    width: 13px;
-    height: 100%;
-}
-
-.main12 h2 {
-    top: 6px;
-    left: 20px;
-    position: absolute;
-    font-size: 26px;
-    font-weight: 750;
-    color: white;
-    font-family: arial;
-}
-
-.main12 button {
-    position: absolute;
-    width: 200px;
-    height: 35px;
-    background-color: gray;
-    top: 43px;
-    font-size: 20px;
-    font-weight: 460;
-    right: 0px;
-    color: white;
-    border: none;
-}
-
-.main12 button img {
-    position: absolute;
-    width: 18px;
-    height: 17px;
-    top: 8.5px;
-    right: 14px;
-}
-
-.main13 {
-    position: absolute;
-    width: 289px;
-    height: 80px;
-    margin-left: 10px;
-    border: 1px solid black;
-    top: 167px;
-    background-color: gray;
-
-}
-
-.main13 img {
-    position: absolute;
-    width: 13px;
-    height: 100%;
-}
-
-.main13 h2 {
-    top: 6px;
-    left: 20px;
-    position: absolute;
-    font-size: 26px;
-    font-weight: 750;
-    color: white;
-    font-family: arial;
-}
-
-.main13 button {
-    position: absolute;
-    width: 200px;
-    height: 35px;
-    background-color: gray;
-    top: 43px;
-    font-size: 20px;
-    font-weight: 460;
-    right: 0px;
-    color: white;
-    border: none;
-}
-
-.main13 button img {
-    position: absolute;
-    width: 18px;
-    height: 17px;
-    top: 8.5px;
-    right: 14px;
-}
-
-.main14 {
-    position: absolute;
-    width: 289px;
-    height: 80px;
-    margin-left: 10px;
-    border: 1px solid black;
-    top: 275px;
-    background-color: gray;
-
-}
-
-.main14 img {
-    position: absolute;
-    width: 13px;
-    height: 100%;
-}
-
-.main14 h2 {
-    top: 6px;
-    left: 20px;
-    position: absolute;
-    font-size: 26px;
-    font-weight: 750;
-    color: white;
-    font-family: arial;
-}
-
-.main14 button {
-    position: absolute;
-    width: 200px;
-    height: 35px;
-    background-color: gray;
-    top: 43px;
-    font-size: 20px;
-    font-weight: 460;
-    right: 0px;
-    color: white;
-    border: none;
-}
-
-.main14 button img {
-    position: absolute;
-    width: 18px;
-    height: 17px;
-    top: 8.5px;
-    right: 14px;
-}
-
-.main15 {
-    position: absolute;
-    width: 289px;
-    height: 80px;
-    margin-left: 10px;
-    border: 1px solid black;
-    top: 385px;
-    background-color: gray;
-
-}
-
-.main15 img {
-    position: absolute;
-    width: 13px;
-    height: 100%;
-}
-
-.main15 h2 {
-    top: 6px;
-    left: 20px;
-    position: absolute;
-    font-size: 26px;
-    font-weight: 750;
-    color: white;
-    font-family: arial;
-}
-
-.main15 button {
-    position: absolute;
-    width: 200px;
-    height: 35px;
-    background-color: gray;
-    top: 43px;
-    font-size: 20px;
-    font-weight: 460;
-    right: 0px;
-    color: white;
-    border: none;
-}
-
-.main15 button img {
-    position: absolute;
-    width: 18px;
-    height: 17px;
-    top: 8.5px;
-    right: 14px;
-}
-
-.main2 {
-    position: absolute;
-    width: 820px;
-    top: 1200px;
-    border: 1px solid black;
-    height: 600px;
-    margin-left: 380px;
-}
-
-.main2 h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-
-}
-.main2 p{
-    font-size: 1.2rem;
-    line-height: 23px;
-}
-.main3{
-    position: absolute;
-    width: 260px;
-    top: 1200px;
-    border: 1px solid black;
-    height: 600px;
-    margin-left: 1225px;
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keefer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="header">
+        <div class="head1">
+            <img src="./looo.png" alt="">
+        </div>
+        <div class="head2">
+            <div class="headtext">
+                <h2>CALL OUR OFFICE NOW!</h2>
+                <hr>
+                <h6>540.433.6906</h6>
+                <p>Get Your Questions Answered Fast</p>
+            </div>
+        </div>  
+    </div>
+    <div class="nav">
+        <a href="#">HOME</a>
+        <a href="#">BIOGRAPHY</a>
+        <a href="#">BLOGS</a>
+        <a href="#">AREAS WE SERVE</a>
+        <a href="#">LIABRARY</a>
+        <a href="#">CONTACTS</a>
+    </div>
+    <div class="formsection">
+        <div class="firstpic">
+            <img src="./gurantee_banner.gif" alt="">
+        </div>
+        <div class="secondpic">
+            <div class="formhead">
+                <div class="formh1">
+                    <h2>QUESTION?</h2>
+                </div>
+                <div class="formh2">
+                    <p>Have A <span>Question</span> About Your Case</p>
+                </div>
+
+            </div>
+            <div class="formparagraph">
+                <p>Enter your information and get your questions answered quickly and discreetly or call us at:
+                    <span>540.433.6906</span>
+                </p>
+            </div>
+            <div class="subform">
+                <div class="sublabel">
+                    <label for="">Name:</label>
+                    <label for="">Email:</label>
+                    <label for="">Phone:</label>
+                </div>
+                <div class="subinput">
+                    <input type="text" name="" id="">
+                    <input type="email" name="" id="">
+                    <input type="number" name="" id="">
+                </div>
+                <div class="formimg">
+                    <img src="./confidential.png" alt="">
+                </div>
+            </div>
+            <div class="textarea1">
+                <textarea name="" id="" placeholder="Tell us About Your Case here..."></textarea>
+            </div>
+            <div class="btndiv">
+                <div class="btntext1">
+                    <p><i>100% Privacy Guranteed</i></p>
+                </div>
+                <div class="btn1">
+                    <button>Ask Us About Your Case <img src="./bullet_white.gif" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="m1">
+            <div class="m01">
+                <h2>CHARGED WITH <span>DUI?</span></h2>
+            </div>
+            <div class="m11">
+                <h3>Free Case Evaluation</h3>
+            </div>
+            <div class="m12">
+                <p class="mp1">Being a CHarged With a DUI can be scary.Get the help you deserve.</p>
+                <p>Click here to let us know how we can help you with your case.</p>
+            </div>
+            <div class="m13">
+                <img src="./paste_board.gif" alt="">
+            </div>
+            <div class="m14">
+                <hr class="hr1">
+                <button>CLICK HERE <img src="./bullet_white.gif" alt=""></button>
+            </div>
+        </div>
+        <div class="m2">
+            <div class="m21">
+                <div class="m211">
+                    <h2>LAW <span>BLOG</span></h2>
+                    <p>Learn more about Virginia Traffic Law.</p>
+                    <div class="m212">
+                        <hr class="hr2">
+                        <button>CLICK HERE <img src="./bullet_white.gif" alt=""></button>
+                    </div>
+                </div>
+                <div class="m221"><img src="./pic1.gif" alt=""></div>
+            </div>
+
+            <div class="m22">
+                <div class="m220">
+                    <h2>CASE <span>RESULTS</span></h2>
+                    <p>See how we help client.</p>
+                    <p>Read our latest result.</p>
+                    <hr class="hr3">
+                    <button>CLICK HERE <img src="./bullet_white.gif" alt=""></button>
+                </div>
+                <div class="m222"><img src="./order_icon.gif" alt=""></div>
+            </div>
+        </div>
+        <div class="m3">
+            <div class="m31">
+                <img src="./qqq.gif" alt="">
+            </div>
+            <div class="m32"><img src="./national_college_small.gif" alt=""></div>
+            <div class="m33">
+                <h2>CERTIFICATE & <span>CREDIENTIAL</span> </h2>
+            </div>
+            <div class="m34">
+                <p>keefer law firms has protected the </p>
+                <p> rights for virginians over 30 years</p>
+            </div>
+            <div class="m35">
+                <hr class="hr4">
+                <button>CLICK HERE <img src="./bullet_white.gif" alt=""></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="section1">
+        <div class="leftsection">
+            <h3>PRACTICE <span>AREAS</span></h3>
+            <div class="left1">
+                <div class="left10">
+                    <img src="./menu_bg.gif" alt="">
+                </div>
+                <div class="left11">
+                    <h2>DUI & DWI</h2>
+                </div>
+                <div class="left12">
+                    <button>Learn More <img src="./bullet_red.gif" alt=""></button>
+                </div>
+            </div>
+            <div class="left1">
+                <div class="left10">
+                    <img src="./menu_bg.gif" alt="">
+                </div>
+                <div class="left11">
+                    <h2>RECKLESS DRIVING</h2>
+                </div>
+                <div class="left12">
+                    <button>Learn More <img src="./bullet_red.gif" alt=""></button>
+                </div>
+            </div>
+            <div class="left1">
+                <div class="left10">
+                    <img src="./menu_bg.gif" alt="">
+                </div>
+                <div class="left11">
+                    <h2>SPEEDING TICKETS</h2>
+                </div>
+                <div class="left12">
+                    <button>Learn More <img src="./bullet_red.gif" alt=""></button>
+                </div>
+            </div>
+            <div class="left1">
+                <div class="left10">
+                    <img src="./menu_bg.gif" alt="">
+                </div>
+                <div class="left11">
+                    <h2>TRAFFIC VIOLATIONS</h2>
+                </div>
+                <div class="left12">
+                    <button>Learn More <img src="./bullet_red.gif" alt=""></button>
+                </div>
+            </div>
+            <h3>Learn <span>More</span> About</h3>
+        </div>
+        <div class="midsection">
+            <h1>PAGE TITLE HERE </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore fuga nulla, aliquid voluptatum est,
+                magni ipsam pariatur eos sapiente porro, perspiciatis facilis! In nobis architecto nam reprehenderit
+                eveniet ullam? Reiciendis veritatis inventore nam, molestiae voluptatibus quisquam magnam eligendi autem
+                assumenda minus est veniam optio? Culpa ut odit labore repudiandae quia incidunt laborum quod,
+                recusandae quos facilis nostrum laudantium, consequuntur cum exercitationem. Aperiam expedita non
+                provident consequatur repellat distinctio eligendi magnam quos unde voluptatibus voluptate nisi,
+                assumenda eum odit porro quidem id quam quibusdam quae cumque consequuntur labore? Nemo ad culpa quas
+                ipsam temporibus totam nostrum inventore quis voluptate porro! Fugiat incidunt quis illo sit odio rerum
+                ipsam, temporibus tenetur quidem, deserunt nobis quam veniam. </p>
+        </div>
+        <div class="rightsection">
+            <div class="right1">
+                <div class="right10">
+                    <h2>CLIENT & <span> TESTIMINOLS</span></h2>
+                </div>
+                <div class="right11">
+                    <p>Reads what other says about keefer law firms.</p>
+                </div>
+                <div class="right12">
+                    <hr class="hr12">
+                    <button>CLICK HERE <img src="./bullet_white.gif" alt=""></button>
+                </div>
+
+            </div>
+            <div class="right1">
+                <div class="right10">
+                    <h2>DOWNLOAD <span>FREE</span> REPORT</h2>
+                </div>
+                <div class="right11">
+                    <p>Discover the truth about Virgnia Law.</p>
+                </div>
+                <div class="right12">
+                    <hr class="hr12">
+                    <button>CLICK HERE <img src="./bullet_white.gif" alt=""></button>
+                </div>
+
+            </div>
+            <div class="right1">
+                <div class="right10">
+                    <h2>CONTACTS<span> OUR</span> OFFICES</h2>
+                </div>
+                <div class="right11">
+                    <p>Get your questions answered right now</p>
+                </div>
+                <div class="right12">
+                    <hr class="hr12">
+                    <button>CLICK HERE <img src="./bullet_white.gif" alt=""></button>
+                </div>
+
+            </div>
+            <div class="rightimg">
+                <div class="rightimg1"><img src="./qqq.gif" alt=""></div>
+                <div class="rightimg2"><img src="./national_college_small.gif" alt=""></div>
+            </div>
+            <div class="foot">
+                <div class="f1">
+                    <h2>FOLLOW <span>US</span></h2>
+                </div>
+                <div class="f2"><img src="./lf_bt_hr_shadow.png" alt=""></div>
+                <div class="f3">
+                    <img src="./fb_icon.gif" alt="">
+                    <img src="./twitter_icon.gif" alt="">
+                    <img src="./linked_icon.gif" alt="">
+                    <img src="./google_icon.gif" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
